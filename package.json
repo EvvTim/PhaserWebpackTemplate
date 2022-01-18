@@ -4,9 +4,9 @@
   "description": "Phaser 3 with Webpack 4 and Babel Setup",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development --entry ./src/game.js",
-    "build": "webpack --mode production --entry ./src/game.js --output ./dist/game.js",
-    "dev": "webpack --mode development --entry ./src/game.js --output ./dist/game.js"
+    "start": "webpack serve --mode development --entry ./src/main.js",
+    "build": "webpack --mode production --entry ./src/game.js --output ./dist/main.js",
+    "dev": "webpack --mode development --entry ./src/game.js --output ./dist/main.js"
   },
   "repository": {
     "type": "git",
