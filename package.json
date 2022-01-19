@@ -1,8 +1,9 @@
 {
-  "name": "phaserwebpacksetup",
+  "name": "phaser3-js-webpack-template",
   "version": "1.0.0",
-  "description": "Phaser 3 with Webpack 4 and Babel Setup",
+  "description": "Phaser 3 with Webpack 4 and Babel Template",
   "main": "index.js",
+  "author":"Yauhen Tsimashchuk",
   "scripts": {
     "start": "webpack serve --mode development --entry ./src/main.js",
     "build": "webpack --mode production --entry ./src/game.js --output ./dist/main.js",
@@ -12,7 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/EvvTim/PhaserWebpackSetup.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EvvTim/PhaserWebpackSetup/issues"
